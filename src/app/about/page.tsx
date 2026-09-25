@@ -27,7 +27,6 @@ export default function AboutPage() {
     '@context': 'https://schema.org',
     '@type': 'Person',
     name: 'Iris Zimmerfrau',
-    alternateName: 'Amin Alogaili',
     url: `${siteConfig.url}/personal-page/`,
     jobTitle: 'Founder & Operator',
     worksFor: { '@id': `${siteConfig.url}/#organization` },
@@ -40,7 +39,6 @@ export default function AboutPage() {
     sameAs: [
       'https://www.linkedin.com/in/iris-zimmerfrau-92bb02174/',
       'https://github.com/iriszimmerfrau-collab',
-      'https://independent.academia.edu/AminAlogaili',
       `${siteConfig.url}/personal-page/`,
     ],
   };

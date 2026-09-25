@@ -164,7 +164,6 @@ const organizationSchema = {
     sameAs: [
       'https://www.linkedin.com/in/iris-zimmerfrau-92bb02174/',
       'https://github.com/iriszimmerfrau-collab',
-      'https://independent.academia.edu/AminAlogaili',
     ],
   },
   logo: {

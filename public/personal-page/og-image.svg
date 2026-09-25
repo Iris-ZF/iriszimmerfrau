@@ -1,28 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Iris Zimmerfrau — Quantum Computing Researcher, Developer, and Founder">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Iris Zimmerfrau: tools for quantum computing and the Arabic language">
+  <!-- Source for og-image.png. Social platforms don't render SVG previews, so re-export the PNG at 1200x630 after editing. -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,600;1,8..60,300&amp;family=Source+Sans+3:wght@400;600&amp;display=block');
+    .serif { font-family: 'Source Serif 4', Georgia, serif; }
+    .sans { font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif; }
+  </style>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1a1744"/>
-      <stop offset="0.5" stop-color="#272566"/>
-      <stop offset="1" stop-color="#312e81"/>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0.5" stop-color="#0068a5" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0068a5" stop-opacity="0.35"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="#003865"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
 
-  <!-- Brand mark -->
-  <g transform="translate(80,80)">
-    <rect width="96" height="96" rx="20" fill="#5145CD"/>
-    <text x="48" y="68" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="-2">ZF</text>
-  </g>
-  <text x="200" y="125" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#FFFFFF" letter-spacing="-0.5">Iris Zimmerfrau</text>
-  <text x="200" y="155" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#a5b4fc">iriszf.com/personal-page</text>
+  <!-- Name block -->
+  <rect x="80" y="80" width="6" height="64" fill="#c41230"/>
+  <text x="108" y="118" class="serif" font-size="38" font-weight="600" fill="#ffffff">Iris Zimmerfrau</text>
+  <text x="108" y="144" class="sans" font-size="20" fill="#ffffff" fill-opacity="0.6">iriszf.com/personal-page</text>
+
+  <!-- Kicker -->
+  <rect x="80" y="277" width="32" height="3" fill="#c41230"/>
+  <text x="128" y="285" class="sans" font-size="19" font-weight="600" letter-spacing="3.4" fill="#ffffff" fill-opacity="0.55">QUANTUM SOFTWARE · ARABIC NLP</text>
 
   <!-- Headline -->
-  <text x="80" y="380" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="800" fill="#FFFFFF" letter-spacing="-2">Companies. Software.</text>
-  <text x="80" y="455" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="800" fill="#FFFFFF" letter-spacing="-2">Research. Writing.</text>
+  <text x="80" y="378" class="serif" font-size="66" font-weight="300" fill="#ffffff">I build tools for <tspan font-style="italic" fill-opacity="0.7">quantum computing</tspan></text>
+  <text x="80" y="456" class="serif" font-size="66" font-weight="300" fill="#ffffff">and <tspan font-style="italic" fill-opacity="0.7">the Arabic language.</tspan></text>
 
-  <!-- Tagline -->
-  <text x="80" y="525" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#c7d2fe">Independent Builder · San Francisco</text>
-
-  <!-- Tags -->
-  <text x="80" y="580" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#a5b4fc">novum-qvm · PFQVS · 2 books · 3 papers · 2 companies founded</text>
+  <!-- Footer -->
+  <text x="80" y="560" class="sans" font-size="22" fill="#ffffff" fill-opacity="0.6">novum-qvm · QuantumLab · PFQVS · San Francisco</text>
 </svg>
